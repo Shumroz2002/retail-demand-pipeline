@@ -41,3 +41,13 @@ The dataset has no dates, prices or stock levels, so this measures demand and re
 
 ## Next steps
 Reorder-prediction model vs. a baseline, BigQuery version of the SQL, dashboard.
+
+## Results (full Instacart dataset)
+
+Loaded 3,421,083 orders and 32,434,489 order lines into SQLite and ran the SQL + Pandas report.
+
+- Produce is 29.2% of all order lines (9.5M); dairy & eggs is next at 16.7%.
+- Dairy & eggs has the highest reorder rate (67.0%), then beverages (65.4%) and produce (65.0%). Pantry (34.7%) and personal care (32.1%) are lowest.
+- Highest replenishment priority in produce: Banana (472,565 orders, 84.4% reorder rate), then Bag of Organic Bananas and Organic Hass Avocado.
+
+Full produce table: `reports/produce.csv` (1,684 products).

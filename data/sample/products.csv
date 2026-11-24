@@ -1,0 +1,7 @@
+product_id,product_name,aisle_id,department_id
+1,Banana,1,1
+2,Apple,1,1
+3,Whole Milk,2,2
+4,Oat Milk,2,2
+5,White Bread,3,3
+6,Bagels,3,3
